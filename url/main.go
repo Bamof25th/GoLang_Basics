@@ -25,4 +25,15 @@ func main() {
 	fmt.Println("protocol:", parsedURL.Path)
 	fmt.Println("protocol:", parsedURL)
 
+	//  modifying url components
+
+	parsedURL.Path = "/newPath"
+	parsedURL.RawQuery = "username=aniket"
+
+	// constructing a URL string from a url object
+
+	newURL := parsedURL.String()
+
+	fmt.Println("new URL:", newURL)
+
 }
