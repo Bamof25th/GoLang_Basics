@@ -168,13 +168,13 @@ func main() {
 	//  CRUD
 
 	// Get request
-	// getRequest();
+	getRequest();
 
 	//  POST request
-	// postRequest()
+	postRequest()
 
 	// PUT request
-	// putRequest()
+	putRequest()
 
 	// DELETE request
 	deleteRequest();
